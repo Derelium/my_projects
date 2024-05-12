@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-bg-color: silver;
+}
+
+body{
+  background: linear-gradient(to bottom, RGB(0 10 35 / 50%),RGB(0 0 5 / 50%)),url('img/background.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+#wrapper{
+  width: 700px;
+  margin:0 auto;
+  background:RGBA(0,0,50,5);
+  font-family:Georgia;
+  background: linear-gradient(to bottom, RGB(0 10 35 / 50%),RGB(25 5 10 / 50%))
+  }
+h1, p, label, legend {
+    color:var(--main-bg-color);
+    text-shadow: 1px 1px 35px rgb(15, 15, 0);
+  }
+
+#description{
+  font-style:italic;
+  font-size:16px;
+  margin:0;
+}
+
+button{
+  margin:0 0 0 0;  
+  background-color: white;
+  text-align: center;
+  
+}
+
+p, legend, fieldset, text {
+  font-size: 30px;
+  margin: 60 0 0 0;
+}
+
+em{
+  font-size: 15px;
+  
+}
+br{
+  margin:0;
+  padding:0;
+}
+
+fieldset{
+  border:none;
+}
+textarea{
+  width:700px;
+ }
+p, fieldset{
+  margin:30px 0 0 0;
+}
+
