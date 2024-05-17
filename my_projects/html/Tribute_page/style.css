@@ -1,0 +1,135 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:linear-gradient(450deg, rgba(255, 241, 241, 0.329),grey) ;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif, Arial ;    
+}
+
+#wrapper{
+    max-width: 700px;
+    margin:0 auto;
+        }
+
+
+img{
+    display:block;
+    max-width:100%;
+    max-height: 50vh;
+    margin:0 auto;
+}
+h1,h2,p,legend,li,blockquote, div{
+    text-align: center;    
+    }
+
+div+div{
+    margin:33px 0 0 0;
+}
+
+
+a{
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 4px solid currentColor;
+}
+
+img:hover{
+    transition: 2s;
+    transform: scale(1.5);
+}
+
+@media (max-width: 289px) {
+    div+div{
+        margin:33px 0 0 0;
+    }
+h1{
+    font-size:25vw;
+}
+h2{
+    font-size:25vw;
+}
+a{
+    font-size:15vw;
+}
+
+  }
+
+
+/*
+.Students{
+    
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+align-items: center;
+padding:0;
+height:auto;
+
+   }
+
+  
+  .Students img{
+    width: 100%;
+       }
+
+   
+legend{
+    align-items: center;
+    align-self: center;
+}
+blockquote{
+margin:0 auto;
+}
+h1{
+    font-size:7vw;
+}
+p,span,li,a {
+    font-size:4vw;
+}
+div#Students>div>p{
+    text-align: center;
+}
+legend{
+    font-size:3vw;
+    margin:1vw auto 4vw;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    }
+blockquote{
+    font-style: italic;
+    font-size:3vw;
+    text-align: center;
+    
+}
+
+img{
+    border-radius: 30px;
+    }
+
+.laerd_img{
+    display: block;
+    margin:0 auto;
+    padding: 0;
+}
+p{margin: 0 0 5vw;}
+
+a{
+   text-decoration: none;
+   color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(83, 54, 0);
+}
+li{
+    margin:0 0 2vw 0;
+}
+*/
