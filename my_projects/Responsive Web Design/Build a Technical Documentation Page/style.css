@@ -1,0 +1,141 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif ;
+    line-height: 1.5em;    
+   }
+
+
+a:hover{
+    transition:2s;
+    color:rgb(0, 19, 5);
+    font-weight: bold;
+}
+
+code:hover{
+    font-weight: bold;
+    transition:3s;
+    color:gold;
+}
+
+
+
+
+
+.nav-link{
+    color:rgb(3, 73, 32);
+    text-decoration: none;
+}
+header{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 35px;
+    text-shadow: 15px;
+    color:rgb(0, 45, 0);
+    margin-bottom:10px;
+}
+#Introduction>header{
+    
+    padding:0;
+    
+    
+}
+#nav_head{
+    font-size:25px;
+    
+}
+ul {
+    list-style-position: inside;
+    
+  }
+li{
+    padding: 0px;
+    margin:0;
+    font-style:normal;
+        
+}
+li:last-child{
+   margin:0 0 2em 0;
+}
+section>p{
+    font-size: large;
+    
+    
+}
+p{
+    font-size: 15px;
+    
+}
+
+p+p{
+    padding-top: 15px;
+}
+
+code{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    margin-bottom:1em;
+    display:inline-block;
+    padding:5px;
+    
+}
+nav{
+    background-color: white;
+    color:black;
+        }
+.block2{
+            
+            word-wrap: break-word;
+            hyphens: auto;
+        
+        }
+@media screen and (min-width: 770px){
+    main{
+        display: grid;
+        grid-template-columns: 200px auto ;
+        gap: 15px;
+        border: 1px solid;
+        }
+        nav{
+        display: block;
+        background-color: white;
+        color:black;
+        align-self: start;
+        grid-column: 1;
+        position: sticky;
+        top: 0px;
+        }
+        .block2{
+            grid-column: 2;
+            word-wrap: break-word;
+            hyphens: auto;
+        
+        }
+}
+
+
+
+
+
+@media screen and (max-width: 770px){
+    #main{
+        display: block;
+        max-width: 700px;
+        margin:0 auto;
+            }
+
+            nav{
+                display: block;
+                          }
+            .block2{
+                display: block;
+                grid-column: 0;
+                              
+            }
+    
+}
