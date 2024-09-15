@@ -8,7 +8,7 @@
 }
 
 body{
-  background: linear-gradient(to bottom, RGB(0 10 35 / 50%),RGB(0 0 5 / 50%)),url('img/background.jpg') no-repeat center center fixed; 
+  background: linear-gradient(to bottom, RGB(0 10 35 / 50%),RGB(0 0 5 / 50%)),url('https://github.com/Derelium/test/blob/main/background.jpg?raw=true') no-repeat center center fixed; 
   background-size: cover;
   }
 
@@ -63,17 +63,20 @@ p, fieldset{
 
 :invalid:required{
   border: 2px solid rgba(155, 6, 6, 0.705);
-  text-decoration: solid;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
 :required:valid{
   border: 5px solid rgb(0, 31, 18);
-  text-decoration: solid;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
 
-:hover{
-  font-weight: bold;
-  color:rgb(116, 204, 128);
-  transition: 2s;
-  
+input:hover, span:hover, legend:hover, text:hover{
+  color:rgb(3, 0, 60);
+  transition: 3s;
+  -webkit-text-stroke:1px var(--main-bg-color);
 }
-
+input, span, legend, text{
+transition: 4s;
+}
