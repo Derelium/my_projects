@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 600px;
+}
+
+.header{
+    height: 80px;
+    width: 600px;
+    
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    padding: 19px;
+    
+   
+}
+
+.about{
+    padding: 0px 24px 12px 24px;
+    height: 48px;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 20px;
+    
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 280px 280px;
+    padding: 24px 12px 24px 24px;
+    margin-top: 12px;
+    
+   
+}
+
+.container__item{
+    height: 436px;
+    width: 276px;
+    padding-left: 4px;
+    /*padding: 32px 8px 144px 8px;*/
+}
+
+
+.cardImage{
+    width: 264px;
+    padding: 0;
+    margin: 0;
+}
+
+.cardText{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1%;
+    
+}
+
+.cost{
+    padding-left: 1px;
+    color: rgb(72, 157, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.button{
+    margin-top: 16px;
+    display: flex;
+    width: 131px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    background-color: rgb(72, 157, 255);
+    padding-left: 2px;
+    padding-top: 16px;
+    justify-content: center;
+    
+}
+
+.footer{
+    width: 552px;
+    text-align: center;
+    height: 136px;
+    width: 600px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.footer__item{
+margin-bottom: 15px;
+height: 20px;
+}
+
+.social{
+    text-align: center;
+    height: 18px;
+}
+
+hr{
+background: rgb(243, 243, 243);
+border: none;
+}
+
+.header-line{
+position: absolute;
+left: 24px;
+top: 79px;
+width: 552px;
+height: 1px;
+
+}
+
+.footer-line{
+margin-top: 41px;
+position: absolute;
+width: 568px;
+left: 16px;
+top: 1001px;
+}
+
+
+@media(max-width: 599px) {
+    body, .header, .container__item, .footer{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .social{
+        padding-top: 2%;
+    }
+  }

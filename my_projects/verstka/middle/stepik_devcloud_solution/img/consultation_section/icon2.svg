@@ -1,0 +1,12 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_1_940" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image1_94_0" transform="matrix(0.016667,0,0,0.016667,0,0)"/>
+		</pattern>
+		<image id="image1_94_0" width="60.000000" height="60.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAYpJREFUaIHtmb1KA0EURo+iBOuAIJo6pY2QJ7BIbeMT+ATim/gQSiCFtXWwEMRawb/CRiERiwgxFqvgZnZnk8xldrjcA1NdmHO/mWFZZsAwDMMwjFRpAT1gBEwXHCOgD7QT9jnytyXEs+P9d67UfA49AfnfOE/Q57DMsSobw1R8K54GpnM0uQg+VzTfqrAkeSywdiywdiywdiywdiywdiywdiywdnyBP6J1EdHnC3wZo4EafQ5tsgsxqWuX1HyFtMguxIaRGojtC8K3O+NUfJJf6Yan9inoCfJJBl731Oa5po3ikwrcqGjgQcgT7JMKvF1RvxfyBPukAle95VwLeYJ9UoF3KupXQp5gX4wdfgVuhDzBPqnAu57aBfAt5KnL53BH+U/AngJfji2yFS2SD1LzSRzpLuVPoacC89ftc+hTvNq3wJoCX45N4KukgX0FPofjEvmZEl+ODeClQP4ENBX4HE4K5GOgo8Tn8DwjnwCHinwO/4/XBDhS5nPokq36I3Cg0GcYhmEYhjA/GaV0m2h8QdEAAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="icons8-цитата-справа-60 1" width="60.000000" height="60.000000" fill="url(#pattern_1_940)" fill-opacity="0.150000"/>
+</svg>

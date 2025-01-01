@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    min-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features {
+    text-align: center;
+    padding: 170px 0;
+       
+}
+
+.title {
+    text-align: center;
+    color: rgb(61, 79, 159);
+    font-weight: 500;
+}
+
+.title h2 {
+    margin: 0 0 19px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+
+.title p {
+    font-size: 24px;
+    margin: 0 0 94px;
+}
+
+.cards {
+    display: flex;
+    gap:67px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 142px;
+}
+.item {
+    width: 140px;
+}
+
+.item img{
+    margin-bottom: 29px;
+}
+
+.item h3{
+    color: rgb(64, 116, 248);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 33px;
+}
+
+.item p{
+    color: rgb(173, 179, 203);
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 111px;
+}
+.buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 43px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.buttons-readmore {
+    color: rgb(212, 63, 63);
+    background-color: rgb(255, 215, 215);
+
+}
+.buttons-get {
+    color: rgb(58, 121, 255);
+    background-color: rgb(210, 225, 255);
+}
+.stats{
+    background: linear-gradient(90deg, rgb(104, 136, 255) 50%, rgb(233, 239, 255) 50%);
+}
