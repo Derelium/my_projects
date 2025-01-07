@@ -1,11 +1,11 @@
-let cloud = document.querySelectorAll(".services__cloud");
-let arrow = document.querySelectorAll(".services__arrow");
+let cloud            = document.querySelectorAll(".services__cloud");
+let arrow            = document.querySelectorAll(".services__arrow");
 let services__footer = document.querySelectorAll(".services__footer");
 function changeSrc(element, link){
 element.setAttribute('src', link);
 }
-let normalStyle='<img src   = "/img/services/cloud.svg" alt = "Ссылка" class  = "services__cloud"><a   class = "services__footer-text">Узнать большe</a><img src   = "/img/services/arrow.svg" alt = "Перейти" class = "services__arrow"></img>'
-let greenStyle='<img src   = "/img/services/cloud_green.svg" alt = "Ссылка" class  = "services__cloud"><a   class = "services__footer-text">Узнать большe</a><img src   = "/img/services/arrow_green.svg" alt = "Перейти" class = "services__arrow"></img>'
+let normalStyle = '<img src   = "/img/services/cloud.svg" alt = "Ссылка" class  = "services__cloud"><a   class = "services__footer-text">Узнать большe</a><img src   = "/img/services/arrow.svg" alt = "Перейти" class = "services__arrow"></img>'
+let greenStyle  = '<img src   = "/img/services/cloud_green.svg" alt = "Ссылка" class  = "services__cloud"><a   class = "services__footer-text">Узнать большe</a><img src   = "/img/services/arrow_green.svg" alt = "Перейти" class = "services__arrow"></img>'
 
 
 services__footer.forEach(footerItem => {
@@ -17,4 +17,12 @@ services__footer.forEach(footerItem => {
     footerItem.addEventListener('blur', ()=>footerItem.innerHTML =normalStyle);
 })
 
+let footer        = document.getElementById("footer");
+let arrowToFooter = document.querySelector(".arrow");
 
+arrowToFooter.addEventListener("click",()=>footer.scrollIntoView({behavior: "smooth", block: "nearest"}))
+
+
+let arrowToTop = document.querySelector(".toTop");
+let header     = document.querySelector(".header");
+arrowToTop.addEventListener("click",()=>header.scrollIntoView({behavior: "smooth", block: "nearest"}))
