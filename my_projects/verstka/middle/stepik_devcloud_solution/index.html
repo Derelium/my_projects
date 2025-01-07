@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "ru">
 <head>
     <meta charset = "UTF-8">
     <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -428,6 +428,48 @@
        
      </section>
 
+     <section class="form__container">
+        <div class="director">
+            <img src="img/form/аватар.png" alt="Директор" loading="lazy" class="image director__image">
+            <h1 class="director__title">
+                Юрий Архипов
+            </h1>
+            <p class="director__position">Директор ТОО "Copyland"</p>
+            <p class="director__description">Разработана очень удобная система приема и обработки заказов, с ней реально высвобождается огромное количество ресурсов.</p>
+        <img src="img/form/Звезды.png" alt="Stars" class="image stars">
+        <p class="director__description date">21.06.28</p>
+        </div>
+        
+        <form action="" method="get" class="form">
+            
+                <h1 class = "text-big form__title">Есть вопросы? Задавайте</h1>
+                <div>
+            
+                    <input class="input name" type="text" name="name" id="name" required value="Имя">
+                  </div>
+                  <div>
+                    
+                    <input class="input email" type="email" name="email" id="email" required value="E-mail">
+                    <input class="input phone" type="tel" name="email" id="email" required value="Телефон">
+                  </div>
+                  <div class="textarea__container">
+                    <textarea  class="textarea" name="text" id="text" required rows="7" cols="80" placeholder="Message&#10;Напишите своё сообщение..."></textarea>
+                    <div class="two__inputs">
+                        <label for="file"><img src="img/form/вложыить.png" alt=""></label>
+                        <input type="file" name="file" id="file" class="hide">
+                        
+                        <label for="submit"><img src="/img/form/телег.png" alt="Отправить"></label>
+                        <input type="submit" class="hide" id="submit" name="submit">
+                    </div>
+            
+                    
+                    
+                  </div>
+                  
+            
+           
+         </form>
+    </section>
 
 
 </main>
