@@ -1,12 +1,1 @@
-<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<pattern id="pattern_1_930" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
-			<use xlink:href="#image1_93_0" transform="matrix(0.016667,0,0,0.016667,0,0)"/>
-		</pattern>
-		<image id="image1_93_0" width="60.000000" height="60.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAZRJREFUaIHtmD0vBFEUhh9EoxGFQmKjUGxNI6LUSXRKCZVCp/CjyCZqhV8gUUhoCUKxItlVWbFXsTZxzcyZxXXMnpwnudW5k+d9M8l8XHAcx3EcZxjZAB6AJrBm0BexC7wB4WM1jfkiNoHuJ3kArgz5IlaAzhd5APaN+CKmgOsc+T0wYcCXoZEjD8CeEV/EaoH8BZg24IsYBy4KAjQM+DJsF8gDsGXAl+G0QN4FZgz4IpYK5AG4HEbfaMl8R5idpQig7ZMKjwHrwvw8RQBtn1R4EfkVcJMigLZPKrxccu1tigDaPqnwQsm1dykCaPukwvPCrP9NmxIVn1R4Tph1gNcUAbR9UuHJkgCpUfFJhaVfsNR39z98GYq+eAZdbeAIqFfUlzxAfz0BtQr6/ixAAA6r4hspCZCKNvJDSc2nVbjMpeYr+1syhxe2jhe2jhe2jhe2jhe2jhe2jhe2jlT4OaGnNcAeFZ9U+CRhgOMB9mj7MtTpHYj99nzpEZitoC+XGr0DsdYPxC3g4JtybZ/jOI7jOIq8Aw7PVhLptkiRAAAAAElFTkSuQmCC"/>
-	</defs>
-	<rect id="icons8-цитата-слева-60 1" width="60.000000" height="60.000000" fill="url(#pattern_1_930)" fill-opacity="0.150000"/>
-</svg>
+<svg width="60" height="60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern id="b" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#a" transform="scale(.01667)"/></pattern><image id="a" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAZRJREFUaIHtmD0vBFEUhh9EoxGFQmKjUGxNI6LUSXRKCZVCp/CjyCZqhV8gUUhoCUKxItlVWbFXsTZxzcyZxXXMnpwnudW5k+d9M8l8XHAcx3EcZxjZAB6AJrBm0BexC7wB4WM1jfkiNoHuJ3kArgz5IlaAzhd5APaN+CKmgOsc+T0wYcCXoZEjD8CeEV/EaoH8BZg24IsYBy4KAjQM+DJsF8gDsGXAl+G0QN4FZgz4IpYK5AG4HEbfaMl8R5idpQig7ZMKjwHrwvw8RQBtn1R4EfkVcJMigLZPKrxccu1tigDaPqnwQsm1dykCaPukwvPCrP9NmxIVn1R4Tph1gNcUAbR9UuHJkgCpUfFJhaVfsNR39z98GYq+eAZdbeAIqFfUlzxAfz0BtQr6/ixAAA6r4hspCZCKNvJDSc2nVbjMpeYr+1syhxe2jhe2jhe2jhe2jhe2jhe2jhe2jlT4OaGnNcAeFZ9U+CRhgOMB9mj7MtTpHYj99nzpEZitoC+XGr0DsdYPxC3g4JtybZ/jOI7jOIq8Aw7PVhLptkiRAAAAAElFTkSuQmCC"/></defs><path fill="url(#b)" fill-opacity=".15" d="M0 0h60v60H0z"/></svg>
