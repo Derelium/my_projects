@@ -1,0 +1,357 @@
+  /* Reset and base styles  */
+* {
+	padding: 0px;
+	margin : 0px;
+	border : none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+  /* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+  /* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-size  : inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height   : auto;
+}
+
+address {
+  font-style: normal;
+}
+
+  /* Form */
+
+input, textarea, button, select {
+ font-family     : inherit;
+ font-size       : inherit;
+ color           : inherit;
+ background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display         : inline-block;
+    box-shadow      : none;
+    background-color: transparent;
+    background      : none;
+    cursor          : pointer;
+}
+
+
+
+
+button::-moz-focus-inner {
+	padding: 0;
+	border : 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+
+
+
+  /*My styles*/
+
+@font-face {
+	font-family: 'Futura Condensed PT Medium';
+	src        : local('Futura Condensed PT Medium'), url('fonts/futura-condensed-pt-medium.woff') format('woff');
+	
+}
+
+@font-face {
+	font-family: 'Futura PT Cond Book Bold';
+	src        : url('../fonts/Futura-PT_Cond-Bold.eot');  /* IE 9 Compatibility Mode */
+	src        : 
+		url('../fonts/Futura-PT_Cond-Bold.woff2') format('woff2');  /* Super Modern Browsers */
+		
+}
+
+.logo{
+  height: 118px;
+  margin: 32px 0 19px 0;
+}
+
+
+.header_text,.subtitle{
+  font-family   : 'Futura Condensed PT Medium';
+  letter-spacing: 2.5px;
+  
+  font-weight: 400px;
+}
+
+.header_title{
+  font-size: 40px;
+}
+
+.subtitle{
+  font-size     : 27px;
+  letter-spacing: 0px;
+}
+
+.strong, .subtitle{
+  font-family: 'Futura Condensed PT Medium';
+  font-weight: bold;
+}
+
+.header, .footer, .subtitle{
+  text-align    : center;
+  text-transform: uppercase
+}
+
+
+.main{
+  position: relative;
+}
+
+.slide{
+  width        : 100%;
+  height       : 800px;
+  -o-object-fit: cover;
+  object-fit   : cover;
+  transition   : all 13500ms ease-out;
+}
+
+
+
+
+.flex__container{
+  
+  z-index        : 2;
+  position       : absolute;
+  border-top     : white 10px solid;
+  border-bottom  : white 10px solid;
+  margin-top     : 177px;
+  display        : flex;
+  flex-wrap      : nowrap;
+  justify-content: space-between;
+  width          : 100%;
+
+}
+
+
+
+.img,.video{
+  width        : 20vw;
+  height       : 345px;
+  -o-object-fit: cover;
+  object-fit   : cover;
+}
+
+
+.map{
+  
+  z-index : 3;
+  width   : 66vw;
+  height  : 684px;
+  position: absolute;
+  left    : 0;
+  right   : 0;
+  margin  : 15px auto 0 auto;
+  border  : white solid 10px;
+}
+.buttons{
+  display        : flex;
+  justify-content: space-between;
+  left           : 0;
+  right          : 0;
+  bottom         : 54px;
+  margin         : 0 auto;
+  width          : 180px;
+  position       : absolute;
+}
+.radio{
+  border            : 2px solid white;
+  box-shadow        : 0 0 0 2px #ffffff;
+  -webkit-appearance: none;
+  -moz-appearance   : none;
+  appearance        : none;
+  border-radius     : 50%;
+  width             : 8px;
+  height            : 8px;
+  background-color  : #ffffff;
+  transition        : all ease-in 0.2s;
+
+}
+
+.radio:checked{
+  
+  -webkit-appearance: none;
+  
+     -moz-appearance: none;
+  
+  appearance      : none;
+  border          : 2px solid white;
+  box-shadow      : 0 0 0 2px #ffffff;
+  border-radius   : 50%;
+  width           : 8px;
+  height          : 8px;
+  background-color: #40583F;
+  
+
+}
+
+
+
+.footer{
+  background-color: #40583F;
+  height          : 182px;
+}
+
+.footer_text{
+  padding-top   : 45px;
+  padding-bottom: 26px;
+  font-size     : 14px;
+  color         : white;
+  font-family   : 'Futura Condensed PT Medium';
+  
+  
+
+}
+
+.social{
+  display        : flex;
+  justify-content: space-around;
+  align-content  : center;
+  text-align     : center;
+  width          : 235px;
+  margin         : 0 auto;
+  
+}
+
+
+  /*animation*/
+.slide{
+  transition: all 1ms ease;
+  }
+
+  a>img:hover {
+    opacity  : 0.5;
+    transform: scale(1.1);
+    filter   : alpha(opacity=50);  /* For IE8 and earlier */
+  }
+  .logo:hover{
+    transform: scale(1.1);
+  }
+  
+  .header_text:hover, .subtitle:hover, .footer_text:hover{
+    text-decoration      : underline ;
+    text-underline-offset: 10px;
+  }
+  
+  .img:hover, .video:hover{
+    transform: translateY(-10px);
+  }
+  
+  .map:hover{
+    transform: scale(1.01);
+  }  
+
+
+
+@media (max-width:780px) {
+  .logo{
+    height: 79.69px;
+    }
+    
+ .header_text,.subtitle{
+  font-size      : 14px;
+  display        : flex;
+  justify-content: center;
+  
+    }
+.header_title{
+  font-size     : 24px;
+  letter-spacing: 1.5px;
+}
+.subtitle{
+  letter-spacing: 0.8px;
+}
+
+.slide{
+  
+  height: 374px;
+  
+}
+
+.flex__container{
+    display       : flex;
+    flex-wrap     : nowrap;
+    width         : 100%;
+    flex-direction: row-reverse;
+    margin-top    : 13px;
+    border-bottom : 5px solid white;
+}
+
+.img,.video{
+  width : 50vw;
+  height: 181px;
+}
+.map{
+  width        : 80vw;
+  height       : 317px;
+  border-bottom: 19px;
+  position     : relative;
+  margin       : 0 10vw 0 10vw;
+  text-align   : center;
+  
+  
+}
+.buttons{
+  bottom: 132px;
+}
+
+.footer{
+  padding-top: 10px;
+  height     : 196px;
+}
+.footer_text{
+  letter-spacing: 4.1px;
+  padding-top   : 39px;
+}
+
+}
+
+

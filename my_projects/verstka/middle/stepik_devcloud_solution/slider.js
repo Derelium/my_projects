@@ -108,5 +108,8 @@ btn=>{
 
 
 
+let menu__burger = document.getElementById("menu__burger-container");
 
+
+menu__burger.addEventListener("click", ()=>nextSlide(slidersContent));
 
